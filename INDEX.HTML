@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Carrinho Shopee</title>
+<link rel="stylesheet" href="CSS/STYLE.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+
+  <header>
+    <h1>🛒 Carrinho Shopee</h1>
+  </header>
+
+  <main class="container">
+
+    <div class="produto">
+      <img src="https://via.placeholder.com/120" alt="Produto">
+
+      <div class="info">
+        <h2>Fone Bluetooth</h2>
+        <p>R$ 120,00</p>
+
+        <div class="acoes">
+          <button onclick="diminuirQuantidade()">-</button>
+
+          <span id="quantidade">1</span>
+
+          <button onclick="aumentarQuantidade()">+</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="total">
+      <h2>Total:</h2>
+      <p id="valorTotal">R$ 120,00</p>
+    </div>
+
+  </main>
+
+   <script src="./assets/js/script.js"></script>
+</body>
+</html>
